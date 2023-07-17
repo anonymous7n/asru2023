@@ -1,0 +1,36 @@
+.. asru2023 documentation master file, created by
+   sphinx-quickstart on Mon Jul 17 15:41:26 2023.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+SVCC 2023 T13 Demo page
+=======================
+
+Demo page of the T13 systems for `singing voice conversion challenge (SVCC) 2023 <https://arxiv.org/abs/2306.14422>`_. 
+
+.. note:: 
+
+   If you are using dark mode with your OS, please switch to the light theme using the button on the top right for better visibility. Headphones are recommended for listening.
+
+Paper
+-----
+
+Submitted to `ASRU 2023 <http://www.asru2023.org/>`_
+
+A Comparative Study of Voice Conversion Models with Large-Scale Speech and Singing Data: The T13 Systems for the Singing Voice Conversion Challenge 2023
+
+Audio samples
+-------------
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Any-to-one SVC
+
+   20230717_asru2023_svcc_task1.ipynb
+   20230717_asru2023_svcc_task2.ipynb
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Any-to-any VC
+
+   20230717_asru2023_svcc_vctk_a2a.ipynb
